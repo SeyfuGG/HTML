@@ -8,12 +8,20 @@
     <meta name="description" content="..." />
     <title>My First Web Page</title>
     <style>
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
       dl {
         font-size: xx-large;
       }
       ul {
         font-size: large;
         background-color: blue;
+        width: 300px;
       }
       img {
         width: 500px;
@@ -100,5 +108,34 @@
       <dt>CSS</dt>
       <dd>Casceding Styel sheet</dd>
     </dl>
+    <table>
+      <thead>
+        <tr>
+          <th>Expenses</th>
+        </tr>
+
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
