@@ -1,0 +1,34 @@
+table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      dl {
+        font-size: xx-large;
+      }
+      ul {
+        font-size: large;
+        background-color: blue;
+        width: 300px;
+      }
+      img {
+        width: 500px;
+        border-radius: 80px;
+        float: left;
+        margin-right: 30px;
+        object-fit: fill;
+      }
+      .Username {
+        font-weight: bold;
+        color: chocolate;
+      }
+      em {
+        color: red;
+        font-style: normal;
+      }
+      body{
+
+        margin: 10px;
+      }

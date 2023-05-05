@@ -7,42 +7,13 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="..." />
     <title>My First Web Page</title>
-    <style>
-      table,
-      td,
-      th {
-        border: 1px solid grey;
-        border-collapse: collapse;
-        padding: 5px;
-      }
-      dl {
-        font-size: xx-large;
-      }
-      ul {
-        font-size: large;
-        background-color: blue;
-        width: 300px;
-      }
-      img {
-        width: 500px;
-        border-radius: 80px;
-        float: left;
-        margin-right: 30px;
-        object-fit: fill;
-      }
-      .Username {
-        font-weight: bold;
-        color: chocolate;
-      }
-      em {
-        color: red;
-        font-style: normal;
-      }
-    </style>
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <style></style>
   </head>
   <body>
     <h1>My First HTML page</h1>
-    <img src="images/Seyfu_pic.jpg" alt="Seyfu photo" />
     <p class="Username">@SeyfuG</p>
     <p>I love to learn <em> HTML </em>!</p>
     <p>I love to learn &lt; HTML &gt;! &copy;</p>
@@ -51,13 +22,14 @@
     <a href="images/Seyfu_pic.jpg" download> my photo </a><br />
     <a href="#installation-section"> Portal installation </a><br />
     <a href="https://google.com" target="_blank">Google</a>
+    <img style="width: 250px" src="images/Seyfu_pic.jpg" alt="Seyfu photo" />
     <h2>Portal</h2>
     <p style="border: 0cqb">
       Microsoft announced the availability of the SharePoint Server 2016 Preview
       that not recommended to install on the production environment. On 18
       November 2015, Microsoft announced the availability of SharePoint Server
       2016 Beta 2 that not recommended to install on production environments.
-      also, you can’t upgrade from Preview to Beta 2. To create a folder, it’s
+      also, you can not upgrade from Preview to Beta 2. To create a folder, it’s
       obvious to have a document or folder we are going to create as sub folder
       on the existing one. Therefore, we can create folders either under a
       document or a folder. To do that we have to open our portal page to get
