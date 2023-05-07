@@ -31,4 +31,9 @@ table,
       body{
 
         margin: 10px;
+       
+      }
+      p{
+        background:linear-gradient(to Right,  rgb(255, 0, 153), Orange ) ;
+
       }
